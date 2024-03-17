@@ -1,18 +1,5 @@
-# Learning Python Basics!
 
-**Learn Python Basics** is an excellent introduction to Python programming, and that too in the most interactive way possible.
 
-## Creating a Virtual Environment and The Project Folder
-A Virtual Environment in Python is a self-contained directory that contains a Python installation for a particular version of Python.
-
-```bash
-python3 -m venv env
-```
-
-To write this information in a GitHub README file, you would typically use Markdown syntax to format the text. Here's how you can translate the provided Python basics tutorial into a Markdown format for a README file:
-
-markdown
-Copy code
 # Learning Python Basics!
 
 **Learn Python Basics** is an excellent introduction to Python programming, and that too in the most interactive way possible.
@@ -146,7 +133,7 @@ we use the newline character \n in the position where we want to break the line:
 ```python
 print("Welcome to Programiz\nThe Amazing Spider-Man")
 ```
-## Long strings using 3times (single/double quotes)
+## Long strings we can use using triple (single/double quotes)
 ```python
  string ="""
 Welcome to Programiz
@@ -160,7 +147,7 @@ character at the same position in y. If there is a third argument, it"""
 
 print(stirng)
 ```
-## String Conctination
+## String Concatination
 ```python
 first_name = 'mohini'
 last_name ='mishra'
@@ -183,7 +170,11 @@ print(name) # will return hello
 name.replace('h', 'H')
 print(name) # will return hello not Hello, to do so 
 
+new_name = name.replace('h', 'H')
+print(new_name) # will retrun now Hello
+
 ```
+
 
 ## REPL Helpfull command 
 `type()` - help to get type of variable or value like 
